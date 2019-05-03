@@ -1,0 +1,145 @@
+/*****BASE STYLES*****/
+body {
+  background: #1f202b;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #08fdd8;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*****GRID STYLES*****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 700px;
+  float: left;
+}
+
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+/*****HEADER STYLES*****/
+
+nav {
+  float: right;
+  font-size: 30px;
+}
+
+header h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: -60px;
+  padding-right: 200px;
+}
+
+nav ul {
+  font-size: 30px;
+  margin-right: -60px;
+  padding-left: 225px;
+  word-spacing: 45px;
+}
+
+/*****TAGLINE STYLES*****/
+
+#tagline {
+  background: url('../img/hero-background.png');
+  background-size: cover;
+  clear: both;
+  height: 725px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 72px;
+  padding: 225px 0 275px 0;
+}
+
+.emphasis {
+  color: #08fdd8;
+}
+
+/*****WORK STYLES*****/
+
+#work {
+  height: 1550px;
+}
+
+#work h2 {
+  clear: both;
+  padding: 50px 0;
+}
+
+#work img {
+  padding: 50px 0;
+}
+
+#work h3{
+  padding: 50px 50px 0 50px;
+}
+
+#work p {
+  padding: 0 50px 300px 50px;
+}
+
+/*****ABOUT STYLES*****/
+
+#about {
+  background: url('../img/about-me.png');
+  background-size: cover;
+  height: 550px;
+}
+
+ #about h2 {
+   padding: 50px 0 50px 0;
+ }
+
+ #about p {
+   color: #1f202b;
+ }
+
+/*****CONTACT STYLES*****/
+
+#contact {
+  height: 400px;
+  text-align: center;
+}
+
+#contact h2 {
+  padding: 30px 0 40px 0;
+}
+
+#contact ul img {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+/*****FOOTER STYLES*****/
+
+#footer {
+  clear: both;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+}
